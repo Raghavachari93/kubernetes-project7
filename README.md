@@ -1,7 +1,3 @@
-Got it — here’s a **clean, professional README in HTML format without code blocks**, focused on explanation, architecture, and DevOps/Kubernetes concepts for strong SEO and readability:
-
----
-
 <h1>Project 7 — Kubernetes Horizontal Pod Autoscaler (HPA) with Python Application</h1>
 
 <p>This project demonstrates a <strong>production-oriented Kubernetes autoscaling implementation</strong> using a Python (Flask) application and the <strong>Horizontal Pod Autoscaler (HPA)</strong>.</p>
