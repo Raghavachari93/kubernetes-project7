@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-hpa-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-hpa
+  template:
+    metadata:
+      labels:
+        app: python-hpa
+    spec:
+      containers:
+      - name: python-container
+        image: python-hpa-app:v1
+        ports:
+        - containerPort: 5000
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "200m"
